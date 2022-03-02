@@ -20,17 +20,17 @@ ask_chicko = ["How are you?","how are you?","how are you","how are u","How about
 
 reply_chicko = ["I'm fine. :relaxed: thank you for asking."]
 
-normal_rcv = ["i'm fine","im okay","i'm okay","boleh ah","boleh lah","i'm good","i'm Good","I'm okay","I'm fine"]
+normal_rcv = ["i'm fine","im okay","i'm okay","boleh lah","i'm good","i'm Good","I'm okay","I'm fine"]
 
-normal_reply = ["It's good to know that, but remember to smile always. :innocent:"," I see, i hope your day gets better. :relieved:","Alhamdulillah. :innocent:","Good to hear that :hugging:","Narukodo! :thinking:","Ouh, I see :hugging:"]
+normal_reply = ["It's good to know that, but remember to smile always. :innocent:"," I see, i hope your day gets better. :relieved:","Alhamdulillah. :innocent:","Good to hear that :hugging:","Ouh, I see :hugging:"]
 
 happy_words = ["happy","delighted","best","seronok"]
 
 happy_reply = ["That's a very good news :innocent:","Its really good to know that :innocent:","Nice! :star_struck:","I'm happy because you are happy :relaxed:","That's so wonderful :star_struck:","Wow, I am happy to hear that. :star_struck:","Good, I hope your day keeps on getting better. :relaxed:","Alhamdulillah. :innocent:"]
 
-sad_words = ["i'm sad", "aku sedih", "i'm depress", "unhappy", "aku kecewa", "i'm angry", "i'm miserable", "i'm useless", "i feel not so okay","i'm not good"," i'm bad","i'm not okay","i'm stress"]
+sad_words = ["i'm sad", "aku sedih", "i'm depress", "unhappy", "i'm angry", "i'm miserable", "i'm useless", "i feel not so okay","i'm not good"," i'm bad","i'm not okay","i'm stress"]
 
-thanks_rcv = ["Tq", "thanks", "trimas", "terima kasih", "thank you", "kamsahamnida", "gomawo","tq"]
+thanks_rcv = ["Tq", "thanks", "trimas", "terima kasih", "thank you","tq"]
 
 thanks_reply = ["You're welcome :innocent:", "I'm always here to help :relieved:", "Sama-sama :relieved:", "No problemo :ok_hand:"]
 
@@ -99,12 +99,12 @@ async def help(ctx):
 
 @client.event
 async def on_member_join(member):
-  channel = client.get_channel(913116093437079552)
+  channel = client.get_channel(Your Discord Channel ID)
   await channel.send('Hello! welcome to our discord server %s :heart_eyes:. How are you?' %member.name)
   
 @client.event
 async def on_member_remove(member):
-  channel = client.get_channel(913116093437079552)
+  channel = client.get_channel(Your Discord Channel ID)
   await channel.send('It is sad to part ways with %s :pensive:,but i guess every good things come to an end' %member.name)
 
 @client.event
