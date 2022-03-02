@@ -2,6 +2,7 @@
 Fully functional discord bot
 
 Functions :
+
 1.Give Quote when recieve command.
 
 2.Give Jokes and Memes when receive commands.
