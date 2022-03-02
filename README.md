@@ -1,4 +1,4 @@
-# Chicko
+# Chicko Bot
 Fully functional discord bot
 
 Functions :
