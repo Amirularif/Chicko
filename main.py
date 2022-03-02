@@ -152,14 +152,6 @@ async def on_message(message):
 
   #process commands
   await client.process_commands(message)
-  
-@client.event
-async def on_voice_state_update(member, before, after):
-  if before.channel is None and after.channel is not None:
-      if after.channel.id == (913061005251182595):
-          await member.guild.system_channel.send(" %s joined Assignment voice channel. Have fun guys! :love_you_gesture:" %(member.name))
-      if after.channel.id == (913065557480321157):
-          await member.guild.system_channel.send(" %s joined Game voice channel. Have fun guys! :love_you_gesture:" %(member.name))
 
 my_secret = os.environ['TOKEN']
 keep_alive()
