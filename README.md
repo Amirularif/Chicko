@@ -1,15 +1,25 @@
-# Chicko Bot
-Fully functional discord bot
+# Discord Bot: Chicko Bot developed using replit
+Fully functional discord bot developed using replit.com and monitored using UptimeRobot. 
 
-Functions :
+> [!NOTE]
+> This Project is completed just for fun. Feel free to use it for educational purposes.
 
-1.Give Quote when recieve command.
+# Development Programs and language used
 
-2.Give Jokes and Memes when receive commands.
+- replit browser IDE
+* Python language
++ JSON
+- UptimeRobots browser monitoring service
 
-3.React to some of your conversations.
+# Functions of the program
 
-4.And most importantly, it will send message to a text channel whenever a person joined a voice channel.
+1. Give a Quote when receiving command.
+
+2. Give Jokes and Memes when receiving commands.
+
+3. React to some of your conversations.
+
+4. And most importantly, it will send a message to a text channel whenever a person joins a voice channel.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Screenshots
 -------------
